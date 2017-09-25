@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Toast the result in a formated string
 
-        Toast.makeText(this, "Naira "+ String.format("%.2f",nairaAmount), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Naira "+ "Ammount"+ String.format("%.2f",nairaAmount), Toast.LENGTH_SHORT).show();
         this.getSupportActionBar();
 
 
